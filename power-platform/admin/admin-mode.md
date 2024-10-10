@@ -45,6 +45,7 @@ You can set a sandbox, production, or trial (subscription-based) environment in 
 ## Known issues
 
 - After taking the environment out of admin mode, flows may not trigger as expected until caches have been cleared; this can take up to 24 hours.
+- New Tables and Columns added while in administration mode are not visible to in Power Query using the Dataverse connector until administration mode is deactivated for the Environment
 
 
 
